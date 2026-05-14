@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Routes,Route , Link} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import "./App.css";
 import Header from "./components/Header";
 import Content from "./components/Content";
@@ -17,7 +17,7 @@ function App() {
                 50MP + 8MP | Yes
                 10001 mAh Battery
                 Dimensity 7400 Ultra Processor`,
-      url: "/src/assets/image.png",
+      url: "/image.png",
       quantity: 1,
     },
     {
@@ -49,18 +49,18 @@ function App() {
   return (
     <>
       <productApi.Provider value={{ products }}>
-       <Router >
-        <ol>
-          <li>
-             <Header />
-            <Content />
-          </li>
-        </ol>
-         <Routes >
-            <Route path="/" element = {<Header />} />
-            <Route path="/Content" element = {<Content />} />
-         </Routes>
-       </Router>
+        <Router >
+          <ol>
+            <li>
+              <Header />
+              <Content />
+            </li>
+          </ol>
+          <Routes >
+            <Route path="/" element={<Header />} />
+            <Route path="/Content" element={<Content />} />
+          </Routes>
+        </Router>
       </productApi.Provider>
     </>
   );
