@@ -63,7 +63,6 @@ const Header = () => {
                      {/* Navigation Links */}
                      <div>
                          <nav className=' space-x-5 font-bold flex items-center'>
-                            <NavLink to={'/demo'} >demo</NavLink>
                              <NavLink to={'/'} >Home</NavLink>
                              <NavLink to={'/about'} >About</NavLink>
                              <NavLink to={'/blog'} >Blog</NavLink>
