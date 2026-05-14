@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.show:hover{
+  display: block;
+}

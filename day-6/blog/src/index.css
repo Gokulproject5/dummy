@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+body {
+  font-family: 'Sansita Swashed Variable', system-ui;
+}
+.active{
+  color: blueviolet;
+}
+
+.my-toast-margin {
+    padding: 0.5rem !important; 
+    margin-top: 100px !important;   
+}
+/* .dark{
+  color:white;
+  background-color: #020618;
+} */
