@@ -9,7 +9,7 @@ import { Blog } from './assets/pages/Blog.jsx'
 import { Contact } from './assets/pages/Contact.jsx'
 import { Home } from './assets/pages/Home.jsx'
 import '@fontsource-variable/sansita-swashed';
-import BlogForm from './assets/pages/blogCom/localApi/blogForm.jsx'
+import BlogForm from '/src/assets/pages/blogCom/localApi/BlogForm.jsx'
 import Header from './assets/components/Header.jsx'
 import ApiProvider from './assets/context/ApiProvider.jsx'
 import Login from './assets/components/Login.jsx'
