@@ -14,7 +14,6 @@ import Header from './assets/components/Header.jsx'
 import ApiProvider from './assets/context/ApiProvider.jsx'
 import Login from './assets/components/Login.jsx'
 import Dashboard from './assets/pages/Dashboard.jsx'
-import Demo from './demo.jsx'
 import { Provider } from "react-redux";
 import { store } from './assets/store/store.js'
 import Register from './assets/components/Register.jsx'
@@ -28,7 +27,6 @@ createRoot(document.getElementById('root')).render(
         <ApiProvider>
             <Router >
                 <Routes>
-                    <Route path='/demo' element={<Demo />}/>
                      <Route path='/Login' element={<Login />} />
                      <Route path='/Register' element={<Register />} />
                     <Route path='/' element={<Home />} />

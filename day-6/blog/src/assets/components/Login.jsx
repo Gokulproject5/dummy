@@ -11,7 +11,6 @@ const Login = () => {
     const [show, setShow] = useState(true);
     const { userDatas, setLogged, setCurrentUser } = useContext(themeContext);
     const navigate = useNavigate();
- console.log(userDatas);
  
 
     const handleShow = () => {

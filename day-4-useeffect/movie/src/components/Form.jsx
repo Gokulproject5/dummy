@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import InputGroup from "./formCompontents/inputGroup";
+import InputGroup from "./formCompontents/InputGroup";
 
 const Form = () => {
     const { id } = useParams();
