@@ -1,6 +1,6 @@
 import React from "react";
 import InputLabel from "./InputLabel";
-import InputForm from "./inputForm";
+import InputForm from "./InputForm";
 
 const InputGroup = ({
     label,
